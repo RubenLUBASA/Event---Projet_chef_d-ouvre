@@ -145,6 +145,11 @@ section {
   background: #333;
   text-align: center;
   padding: 2.5rem;
+  cursor: pointer;
+}
+
+.service .box-container .box:hover{
+  transform: scale(1.06);
 }
 
 .service .box-container .box i {
@@ -167,6 +172,7 @@ section {
   font-size: 1.4rem;
   color: #eee;
   line-height: 1.8;
+  text-align: center;
 }
 
 .about .row {
